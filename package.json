@@ -1,0 +1,30 @@
+{
+	"name": "@let/stylelint",
+	"version": "0.0.1",
+	"description": "@let stylelint config",
+	"keywords": [
+		"stylelint",
+		"stylelint-config",
+		"css"
+	],
+	"author": {
+		"name": "Krisztian Puska",
+		"email": "pyx@pyx.space",
+		"url": "https://pyx.space"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/let-codes/let-stylelint"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"devDependencies": {
+		"@let-codes/eslint-config": "^0.1.9"
+	},
+	"peerDependencies": {
+		"stylelint": "^9.0.0"
+	}
+}
