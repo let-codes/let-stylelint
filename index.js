@@ -237,9 +237,7 @@ module.exports = {
 				]
 			}
 		],
-		"order/properties-alphabetical-order": true
-	},
-	rules: {
+		"order/properties-alphabetical-order": true,
 		"at-rule-name-case": "lower",
 		"at-rule-name-space-after": "always",
 		"at-rule-no-unknown": true,
