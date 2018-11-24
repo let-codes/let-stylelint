@@ -1,6 +1,6 @@
 {
 	"name": "@let/stylelint",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "@let stylelint config",
 	"keywords": [
 		"stylelint",
@@ -21,8 +21,16 @@
 	"files": [
 		"index.js"
 	],
+	"dependencies": {
+		"stylelint-order": "^2.0.0"
+	},
 	"devDependencies": {
-		"@let-codes/eslint-config": "^0.1.9"
+		"@let/eslint-config": "^0.1.9",
+		"eslint": "^5.9.0",
+		"eslint-config-prettier": "^3.3.0",
+		"eslint-plugin-prettier": "^3.0.0",
+		"eslint-plugin-react": "^7.11.1",
+		"prettier": "^1.15.2"
 	},
 	"peerDependencies": {
 		"stylelint": "^9.0.0"
