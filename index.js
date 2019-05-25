@@ -1,16 +1,7 @@
 module.exports = {
 	plugins: ["stylelint-order"],
 	rules: {
-		"order/order": [
-			"custom-properties",
-			"dollar-variables",
-			"at-variables",
-			"custom-properties",
-			"less-mixins",
-			"declarations",
-			"at-rules",
-			"rules"
-		],
+		"order/order": ["dollar-variables", "at-variables", "at-rules", "custom-properties", "rules"],
 		"order/properties-order": [
 			{
 				groupName: "definitions",

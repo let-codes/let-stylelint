@@ -1,17 +1,13 @@
 {
 	"name": "@let/stylelint",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "@let stylelint config",
 	"keywords": [
 		"stylelint",
 		"stylelint-config",
 		"css"
 	],
-	"author": {
-		"name": "Krisztian Puska",
-		"email": "pyx@pyx.space",
-		"url": "https://pyx.space"
-	},
+	"author": "Krisztian Puska <pyx@pyx.sh>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
